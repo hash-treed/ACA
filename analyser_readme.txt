@@ -1,5 +1,5 @@
 # Compile
-g++ -std=c++17 -o asm_analyser_agg asm_analyser_aggressive.cpp
+g++ -std=c++17 -o analyser analyser.cpp
 
 # Run with different modes:
 ./analyser program.disas                      # Conservative (factor 2/1)
