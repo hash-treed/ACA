@@ -1,9 +1,10 @@
+Simulated files by simplescalar to support the algorithm
 Folders:
-assembly : assembly instructions built from the bencmark.c file
-benchmarks : c files with different unroll factors
-binaries : compiled benchmarks 
+assembly : comtains assembly instructions before compilation for every bencmark.c file from benchmarks folder
+benchmarks : c files hard-coded with different unroll factors
+binaries : compiled benchmarks of the files from benchmarks
 branch : txt files of branch simulations and behaviour file BHT after every access
-branch_comps : modified bpred.c bpred.h sim-outrder.c files
+branch_comps : modified bpred.c bpred.h sim-outrder.c files for printing branch log after simulations with out-order
 cache : cache simulated files with sim out-order
 obj : dis-assembled binaries 
 profile : sim-profile simulated files
@@ -11,12 +12,11 @@ test : test files
 
 
 Files:
-Report fron simulations : analysed data from simulations to predict best factor
-analyser.cpp : source code to predict optimal factor from obj file // project
+analyser.cpp : source code to predict optimal factor from obj file // project 
+Report fron simulations : report on analysed data from simulations to predict best factor that supports the algorithm
 analyser : executable
-analyser_reame.txt : commands to run the cpp file 
-uroll.txt : not unrolled benchmark obj file // input
-result.txt: output file
+analyser_readme.txt : commands to run analyser.cpp
+uroll.txt : not unrolled benchmark disassembled obj file // input for analyser
+result.txt: output file fro, analyser
 readme.txt : this file 
-Report.odt: analyser approach and analysis
-Report.pdf: report.odt in pdf format
+Report.pdf:analyser approach and analysis
