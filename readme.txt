@@ -4,7 +4,6 @@ assembly : comtains assembly instructions before compilation for every bencmark.
 benchmarks : c files hard-coded with different unroll factors
 binaries : compiled benchmarks of the files from benchmarks
 branch : txt files of branch simulations and behaviour file BHT after every access
-branch_comps : modified bpred.c bpred.h sim-outrder.c files for printing branch log after simulations with out-order
 cache : cache simulated files with sim out-order
 obj : dis-assembled binaries 
 profile : sim-profile simulated files
